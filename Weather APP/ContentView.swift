@@ -40,8 +40,8 @@ struct ContentView: View {
                     isNight.toggle()
                 }label: {
                     WeatherButton(buttonText: "Change Day Time",
-                                  textColor: .blue,
-                                  backgroundColor: .white)
+                                  textColor:  .white,
+                                  backgroundColor:  isNight ? .blue : .mint)
                 }
                 Spacer()
             }
@@ -79,7 +79,9 @@ struct BackgroundView: View {
     var isNight: Bool
     
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [isNight ? .black : .blue, isNight ? .gray : Color("LightBlue")]), startPoint: .topLeading, endPoint: .bottomTrailing)
+//        LinearGradient(gradient: Gradient(colors: [isNight ? .black : .blue, isNight ? .gray : Color("LightBlue")]), startPoint: .topLeading, endPoint: .bottomTrailing)
+        ContainerRelativeShape()
+            .fill(isNight ? Color.black.gradient : Color.blue.gradient)
             .ignoresSafeArea(.all)
     }
 }
