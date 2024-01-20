@@ -11,6 +11,7 @@
 		884264462B59ADBE003F9D43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884264452B59ADBE003F9D43 /* ContentView.swift */; };
 		884264482B59ADC1003F9D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884264472B59ADC1003F9D43 /* Assets.xcassets */; };
 		8842644C2B59ADC1003F9D43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8842644B2B59ADC1003F9D43 /* Preview Assets.xcassets */; };
+		8888B1502B5C28E900162504 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8888B14F2B5C28E900162504 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		8842644B2B59ADC1003F9D43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		884264512B59ADC1003F9D43 /* Weather APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8842645B2B59ADC1003F9D43 /* Weather APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8888B14F2B5C28E900162504 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		8842644A2B59ADC1003F9D43 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8888B14F2B5C28E900162504 /* WeatherButton.swift */,
 				8842644B2B59ADC1003F9D43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -236,6 +239,7 @@
 			files = (
 				884264462B59ADBE003F9D43 /* ContentView.swift in Sources */,
 				884264442B59ADBE003F9D43 /* Weather_APPApp.swift in Sources */,
+				8888B1502B5C28E900162504 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
